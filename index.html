@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__left">
+                <div><a href="#" class="header__a">Home</a></div>
+                <div><a href="#" class="header__a">Categories</a></div>
+                <div><a href="#" class="header__a">Popular</a></div>
+                <div><a href="#" class="header__a">Open Blog</a></div>
+            </div>
+            <div class="header__right">
+                <div><a href="#" class="header__a">About</a></div>
+                <div><a href="#" class="header__a">Register</a></div>
+                <div><a href="#" class="header__a">Login</a></div>
+            </div>
+        </header>
+        <main>
+            <div class="main__links">
+                <div class="link__left">
+                    <div><a href="#" class="link__a">Home</a></div>
+                    <div><a href="#" class="link__a">Easy Recipes</a></div>
+                    <div><a href="#" class="link__a">Categories</a></div>
+                </div>
+                <div class="chefy">
+                    <div><p class="chefy__txt">CHEFY</p></div>
+                </div>
+                <div class="link__right">
+                    <div><a href="#" class="link__a">Quick Recipies</a></div>
+                    <div><a href="#" class="link__a">Popular</a></div>
+                    <div>
+                        <div class="favorites">
+                            <img src="img/favorites.png" alt="favorites" class="favorites__img">
+                            <a href="#" class="link__a_last">Favorites</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="main__search">
+                <div class="search">
+                    <div class="search__txt">
+                        <p class="DuckDish">Savory Peking Duck Dish</p>
+                        <p class="DuckDish_story">One of the most symbolic dishes of Chinese Cuisine, Peking Duck (北京烤鸭) is a delicacy named after the city where it was invented several hundred years ago.</p>
+                        <div class="search__page">
+                            <div class="page1"></div>
+                            <div class="page other"></div>
+                            <div class="page"></div>
+                            <div class="page last_page"></div>
+                        </div>
+                    </div>
+                    <img src="img/duckdish.png" alt="Duck Dish" class="DuckDish_img">
+                </div>
+                <div class="searching">
+                    <div class="select__item">
+                        <select name="categories" id="categor" class="select">
+                            <option value="All_categories">All categories</option>
+                            <option value="Other_categories">Other categories</option>
+                        </select>
+                        <form action="">
+                            <input class="search__recipes" type="text" placeholder="Search Recipes...">
+                        </form>
+                        <img src="img/search.png" alt="search" class="search__symbol">
+                    </div>
+                </div>
+            </div>
+            <div class="recipes">
+                <div class="recipes_item">
+                    <img src="img/chinese_recipes.png" alt="chinese_recipes" class="multinational_recipes">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p class="name_recipes_txt">Chinese recipes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes_item">
+                    <img src="img/french_reciepes.png" alt="french_reciepes" class="multinational_recipes">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p class="name_recipes_txt">French recipes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes_item">
+                    <img src="img/italian_recipes.png" alt="italian_recipes" class="multinational_recipes"><p class="name_recipes_txt">Italian recipes</p>
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p class="name_recipes_txt">Italian recipes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes_item">
+                    <img src="img/american_recipes.png" alt="american_recipes" class="multinational_recipes">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p class="name_recipes_txt">American recipes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes_item">
+                    <img src="img/turkish_recipes.png" alt="turkish_recipes" class="multinational_recipes">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <p class="name_recipes_txt">Turkish recipes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes_item">
+                    <img src="img/b_recipes.png" alt="b_recipes" class="b_recipes">
+                    <div class="overlay">
+                        <div class="overlay-content_last">
+                            <p class="name_recipes_txt">B</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="categories">
+                <div class="second_line"></div>
+                <div class="categories_block">
+                    <div class="three_line"></div>
+                    <div>
+                        <div class="categories_item">
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/breackfast.png" alt="breackfast" class="categories_img_item">
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/soup.png" alt="soup" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/salad.png" alt="salad" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/drink.png" alt="drink" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/meal.png" alt="meal" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/dessert.png" alt="dessert" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/vegeterian.png" alt="vegeterian" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                            <label class="image-checkbox">
+                                <input type="checkbox">
+                                <img src="img/snack.png" alt="snack" class="categories_img_item" >
+                                <img src="img/checkmark.png" alt="selected" class="checkmark">
+                            </label>
+                        </div>
+                        <div class="categories_text">
+                            <div class="categories_txt breackfast">breakfast</div>
+                            <div class="categories_txt soup">soup</div>
+                            <div class="categories_txt salad">salad</div>
+                            <div class="categories_txt drink">drink</div>
+                            <div class="categories_txt meal">meal</div>
+                            <div class="categories_txt dessert">dessert</div>
+                            <div class="categories_txt vegeterian">vegeterian</div>
+                            <div class="categories_txt snack">snack</div>
+                        </div>
+                    </div>
+                <div class="three_line_2"></div>
+                </div>
+                <div class="second_line_2"></div>
+            </div>
+            <div class="recipes-name_img">
+                <div class="first_recipes">
+                    <img src="img/baked_potato.png" alt="">
+                    <div class="overlay_1">
+                        <div class="overlay-content_1">
+                            <p class="first_recipes_name">Baked Potato with Vegetables</p>
+                            <div class="first_recipes_txt">Lorem ipsum dolor sit amet consectetur. Ullamcorper morbi morbi interdum vel posuere nulla in elementum.</div>
+                            <div class="hour_block">
+                                <img src="img/hour.png" alt="hour" class="hour_img">
+                                <div class="hour">1 hour</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first_recipes">
+                    <img src="img/pancakes.png" alt="">
+                    <div class="overlay_1">
+                        <div class="overlay-content_1">
+                            <p class="first_recipes_name">Pancakes with Peanut Butter</p>
+                            <div class="first_recipes_txt">Lorem ipsum dolor sit amet consectetur. Ullamcorper morbi morbi interdum vel posuere nulla in elementum.</div>
+                            <div class="hour_block">
+                                <img src="img/hour.png" alt="hour" class="hour_img">
+                                <div class="hour">20 min</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first_recipes">
+                    <img src="img/avocado.png" alt="">
+                    <div class="overlay_1">
+                        <div class="overlay-content_1">
+                            <p class="first_recipes_name block_3">Avocado and Egg Puree on Bread</p>
+                            <div class="first_recipes_txt">Lorem ipsum dolor sit amet consectetur. Ullamcorper morbi morbi interdum vel posuere nulla in elementum.</div>
+                            <div class="hour_block">
+                                <img src="img/hour.png" alt="hour" class="hour_img">
+                                <div class="hour">15 min</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recommend">
+                <div class="for_you">
+                    <div class="for_you_search">
+                        <div class="for_you_heading">For you</div>
+                        <img src="img/arrow1.png" alt="arrow" class="arrow">
+                    </div>
+                    <div class="four_line"></div>
+                    <div class="authors_recipes">
+                        <div class="first_block">
+                            <div class="authors_first">
+                                <div class="authors_dishes">
+                                    <img src="img/salad_and_cheese.png" alt="salad_and_cheese">
+                                    <div class="overlay_2">
+                                        <p>Salad and Cheese</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/Jasmine_Patel.png" alt="Jasmine Patel" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Jasmine Patel</p>
+                                        <p class="authors-time">3min ago</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="authors_first block2">
+                                <div class="authors_dishes">
+                                    <img src="img/crispy_dumplings.png" alt="crispy_dumplings">
+                                    <div class="overlay_2_1">
+                                        <p>Crispy Dumplings garnished with Chives</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/mary_snow.png" alt="Mary Snow" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Mary Snow</p>
+                                        <p class="authors-time">2weeks ago</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second_block">
+                            <div class="authors_second">
+                                <div class="authors_dishes">
+                                    <img src="img/pancake.png" alt="pancake">
+                                    <div class="overlay_2">
+                                        <p>Pancake</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/thomas_harris.png" alt="Thomas Harris" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Thomas Harris</p>
+                                        <p class="authors-time">4h ago</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="authors_second block2">
+                                <div class="authors_dishes">
+                                    <img src="img/cheese_and_bread.png" alt="cheese_and_bread">
+                                    <div class="overlay_2">
+                                        <p>Cheese and Bread</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/tom_jones.png" alt="Tom Jones" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Tom Jones</p>
+                                        <p class="authors-time">50min ago</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third_block">
+                            <div class="authors_third">
+                                <div class="authors_dishes">
+                                    <img src="img/tofu.png" alt="tofu">
+                                    <div class="overlay_2">
+                                        <p>Tofu</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/chanku_lu.png" alt="Chanku Lu" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Chanku Lu</p>
+                                        <p class="authors-time">Yesterday</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="authors_third block2">
+                                <div class="authors_dishes">
+                                    <img src="img/ashure.png" alt="ashure">
+                                    <div class="overlay_2">
+                                        <p>Ashure</p>
+                                    </div>
+                                </div>
+                                <div class="authors_info">
+                                    <img src="img/serena_wells.png" alt="Serena Wells" class="authors">
+                                    <div class="authors-name_time">
+                                        <p class="authors-name">Serena Wells</p>
+                                        <p class="authors-time">3 Months ago</p>
+                                    </div>
+                                    <div class="authors_likes">
+                                        <p>39</p>
+                                        <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                        <img src="img/link.png" alt="link" class="link_likes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chefy_popular_video">
+                    <div class="chefy_popular">
+                        <div class="chefys">
+                            <div class="chefys_search">
+                                <div class="chefys_heading">Chefy’s</div>
+                                <img src="img/arrow1.png" alt="arrow" class="arrow_1">
+                            </div>
+                            <div class="five_line"></div>
+                            <div class="chefy-name_info">
+                                <div class="john_williams">
+                                    <div>
+                                        <img src="img/john_williams.png" alt="John Williams" class="chefy-img">
+                                        <p class="chefy-name">John Williams</p>
+                                    </div>
+                                    <p class="chefy-info">I love to make desserts from Turkish cuisine. Take a look at my recipes!</p>
+                                </div>
+                                <div class="daniel_lee">
+                                    <div>
+                                        <img src="img/daniel_lee.png" alt="Daniel Lee" class="chefy-img">
+                                        <p class="chefy-name_1">Daniel Lee</p>
+                                    </div>
+                                    <p class="chefy-info_1">Let’s make some meal for Halloween!</p>
+                                </div>
+                                <div class="jasmine_patel">
+                                    <div>
+                                        <img src="img/jasmine_patel1.png" alt="Jasmine Patel" class="chefy-img">
+                                        <p class="chefy-name_2">Jasmine Patel</p>
+                                    </div>
+                                    <p class="chefy-info_2">Currently working at Big Chefs. I'm revealing my secret!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular">
+                            <div class="popular_search">
+                                <div class="popular_heading">Popular</div>
+                                <img src="img/arrow1.png" alt="arrow" class="arrow_2">
+                            </div>
+                            <div class="six_line"></div>
+                            <div class="popular_dishes">
+                                <div class="first_dishes">
+                                    <img src="img/green_pancakes.png" alt="Green pancakes">
+                                    <div class="overlay_3">
+                                        <p class="name_dishes">Green Pancakes with Honey</p>
+                                        <p class="by_chefys">By John Williams</p>
+                                    </div>
+                                </div>
+                                <div class="second_dishes">
+                                    <img src="img/grilled_chops.png" alt="Grilled chops">
+                                    <div class="overlay_3">
+                                        <p class="name_dishes">Grilled Chops with Curry Sauce</p>
+                                        <p class="by_chefys">By Mary Snow</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="video_block">
+                            <img src="img/video.png" alt="video">
+                            <div class="overlay_4">
+                                <div class="sign">
+                                    <img src="img/live.png" alt="live" class="sign_live">
+                                    <img src="img/Full_Screen.png" alt="Full Screen" class="full_screen">
+                                </div>
+                                <div class="pause_video">
+                                    <div class="pause-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="name_video">We bring out the taste of macarons</div>
+                        <div class="authors_video">
+                            <img src="img/tom_jones.png" alt="Tom Jones" class="authors">
+                            <div class="authors_name">Tom Jones</div>
+                            <div class="authors_likes_1">
+                                <p>39</p>
+                                <img src="img/favorites.png" alt="favorites" class="favorites__img_1">
+                                <img src="img/link.png" alt="link" class="link_likes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="creating_dish">
+                <div class="creat_and_img">
+                    <div class="your_dishes">Match with what you have</div>
+                    <div class="creat_dished">
+                        <div class="creating_block1">
+                            <div class="quantity">Number of People</div>
+                            <div class="block_quantity"><input type="text" placeholder="4" class="input_quantity"></div>
+                            <div class="for_to">For</div>
+                            <div class="choice_mealtime">
+                                <select name="mealtime" id="mealtime" class="mealtime">
+                                    <option value="Dinner" class="mealtime_intake">Dinner</option>
+                                    <option value="Breackfast" class="mealtime_intake">Breackfast</option>
+                                    <option value="Lunch" class="mealtime_intake">Lunch</option>
+                                </select>
+                            </div>
+                            <div class="block_ingridients">
+                                <form action="">
+                                    <input type="text" placeholder="Ingredients..." class="input_ingredients">
+                                </form>
+                                <img src="img/search.png" alt="" class="search_ingridient">
+                            </div>
+                            <div class="ingredients">
+                                <div class="ingredients_top">
+                                    <div class="tomato">Tomato</div>
+                                    <div class="pasta">Pasta</div>
+                                    <div class="mint">Mint</div>
+                                </div>
+                                <div class="ingredients_bottom">
+                                    <div class="beef">Beef</div>
+                                    <div class="soy_sauce">soy sauce</div>
+                                    <div class="other_ingridient">+3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creating_block2">
+                            <div class="can_made_recipes">
+                                <div class="can_made_txt">You can make 26 recipes</div>
+                                <div class="can_made_proposal">
+                                    <div class="can_made_img">
+                                        <img src="img/meal1.png" alt="" class="can_made_png">
+                                        <img src="img/pancake_banan.png" alt="" class="can_made_png">
+                                        <img src="img/fish.png" alt="" class="can_made_png">
+                                    </div>
+                                    <div class="can_made_other">and 23 others</div>
+                                </div>
+                            </div>
+                            <div class="book_now">
+                                <a href="" class="book_now_txt">Book Now</a>
+                                <img src="img/arrow3.png" alt="arrow" class="arrow_3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/fridge.png" alt="fridge" class="products">
+            </div>
+            <div class="sponsors">
+                <img src="img/organic_food.png" alt="organic food" class="organic_food_sponsor">
+                <img src="img/anchor.png" alt="anchor" class="anchor_sponsor">
+                <img src="img/healthy.png" alt="healthy" class="healthy_sponsor">
+                <img src="img/myfood.png" alt="myfood" class="myfood_sponsor">
+                <img src="img/food.png" alt="food" class="food_sponsor">
+            </div>
+            <div class="seven_line"></div>
+            <div class="own_recipe">
+                <div class="own_recipe_block1"></div>
+                <div><img src="img/your_recipes.png" alt="" class="own_recipe_block2"></div>
+                <div class="own_recipe_block3">
+                    <div class="your_own_recipe">Want to add your own recipe?</div>
+                    <div class="creat_own_recipe">Create a blog and let everyone know how great cooker you are. You will have the chance to get in touch with known food comapanies.</div>
+                    <div class="creat_blog">
+                        <a href="" class="creat_blog_txt">Create your blog</a>
+                        <img src="img/arrow3.png" alt="arrow" class="arrow_4">
+                    </div>
+                </div>
+            </div>
+            <div class="eight_line"></div>
+            <div class="follow">
+                <div class="follow_txt">
+                    <div class="follow_us">Follow us on Instagram</div>
+                    <div class="follow_usser">@chefy</div>
+                </div>
+                <div class="follow_img">
+                    <img src="img/follow_1.png" alt="">
+                    <img src="img/follow_2.png" alt="">
+                    <img src="img/follow_3.png" alt="">
+                    <img src="img/follow_4.png" alt="">
+                    <img src="img/follow_5.png" alt="">
+                    <img src="img/follow_6.png" alt="">                    
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_info">
+                <div>
+                    <div class="chefy_1">CHEFY</div>
+                    <div class="address">Lunar avenue, Tranquility Valley, Lunar Colony 01</div>
+                    <div class="contacts">+65 9545672899 contact.chef@chefy.com</div>
+                </div>
+                <div class="menu">
+                    <div class="heading">Menu</div>
+                    <div class="heading_a">
+                        <div><a href="">Home</a></div>
+                        <div><a href="">Easy Recipes</a></div>
+                        <div><a href="">Categories</a></div>
+                        <div><a href="">Quick Recipies</a></div>
+                        <div><a href="">Top Recipies</a></div>
+                    </div>
+                </div>
+                <div class="about_us">
+                    <div class="heading">About Us</div>
+                    <div class="heading_a">
+                        <div><a href="">Features</a></div>
+                        <div><a href="">Recipe</a></div>
+                        <div><a href="">Careers</a></div>
+                        <div><a href="">Customer Care</a></div>
+                    </div>
+                </div>
+                <div class="support">
+                    <div class="heading">Support</div>
+                    <div class="heading_a">
+                        <div><a href="">Contact Us</a></div>
+                        <div><a href="">FaQ</a></div>
+                        <div><a href="">Call Center</a></div>
+                        <div><a href="">Partnership</a></div>
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="heading">Feedback</div>
+                    <div class="feedback_block">
+                        <form action="">
+                            <input class="your_thoughts" type="text" placeholder="Your thoughts...">
+                        </form>
+                        <div class="send_block">
+                            <form action="">
+                                <input class="email_address" type="text" placeholder="Email address...">
+                            </form>
+                            <div class="send">
+                                <p>Send</p>
+                                <img src="img/send.png" alt="send" class="send_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nine_line"></div>
+            <div class="date_networks">
+                <div class="date">© 2023 Chefy. All rights reserved.</div>
+                <div class="social_networks">
+                    <img src="img/Instagram.png" alt="">
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/Twitter.png" alt="">
+                    <img src="img/YouTube.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
